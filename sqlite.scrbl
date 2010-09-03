@@ -2,12 +2,12 @@
 @(require scribble/manual
           (for-label scheme/base
                      scheme/contract
-                     "main.ss"))
+                     "main.rkt"))
 
 @title{SQLite: An interface to SQLite databases}
-@author{@(author+email "Jay McCarthy" "jay@plt-scheme.org")}
+@author{@(author+email "Jay McCarthy" "jay@racket-lang.org")}
 
-SQLite gives you access to SQLite database from PLT Scheme.
+SQLite gives you access to SQLite database from Racket.
 
 @section{API}
 
