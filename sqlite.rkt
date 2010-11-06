@@ -97,7 +97,7 @@
                     [,SQLITE_EMPTY . "Database is empty"]
                     [,SQLITE_SCHEMA . "The database schema changed"]
                     [,SQLITE_TOOBIG . "Too much data for one row of a table"]
-                    [,SQLITE_CONSTRAINT . "Abort due to contraint violation"]
+                    [,SQLITE_CONSTRAINT . "Abort due to constraint violation"]
                     [,SQLITE_MISMATCH . "Data type mismatch"]
                     [,SQLITE_MISUSE . "Library used incorrectly"]
                     [,SQLITE_NOLFS . "Uses OS features not supported on host"]
