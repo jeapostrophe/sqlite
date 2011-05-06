@@ -5,7 +5,7 @@
 
 (provide (all-from-out "constants.rkt"))
 
-(define sqlite (ffi-lib "libsqlite3"))
+(define sqlite (ffi-lib "libsqlite3" (list "0" #f)))
 
 ; Syntax Helpers
 (define-syntax define-sqlite
